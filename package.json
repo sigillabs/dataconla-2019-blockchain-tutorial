@@ -1,0 +1,35 @@
+{
+  "name": "dataconla-blockchain-tutorial",
+  "version": "1.0.0",
+  "description": "Blockchain tutorial for DataCon LA",
+  "main": "src/index.js",
+  "dependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "async": "^3.1.0",
+    "commander": "^2.20.0",
+    "libp2p": "^0.25.5",
+    "libp2p-bootstrap": "^0.10.0",
+    "libp2p-mdns": "^0.12.3",
+    "libp2p-mplex": "^0.8.5",
+    "libp2p-secio": "^0.11.1",
+    "libp2p-tcp": "^0.13.0",
+    "peer-info": "^0.16.0",
+    "pull-stream": "^3.6.13"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  },
+  "scripts": {
+    "cli": "node src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigillabs/dataconla-2019-blockchain-tutorial.git"
+  },
+  "author": "Abraham Elmahrek (abe@sigillabs.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigillabs/dataconla-2019-blockchain-tutorial/issues"
+  },
+  "homepage": "https://github.com/sigillabs/dataconla-2019-blockchain-tutorial#readme"
+}
