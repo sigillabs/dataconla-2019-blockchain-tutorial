@@ -82,41 +82,7 @@ class Blockchain {
   }
 
   validateBlock(block) {
-    if (this.blocks[block.hashString()]) {
-      return false;
-    }
-
-    if (block.isGenesis) {
-      return true;
-    }
-
-    if (!block.isGenesis && block.previous === NULL_PUBLIC_KEY) {
-      return false;
-    }
-
-    if (block.previous !== NULL_PUBLIC_KEY) {
-      if (!this.blocks[block.previous]) {
-        return false;
-      }
-
-      if (this.blocks[block.previous].height < this.getTipBlock().height - 6) {
-        return false;
-      }
-    }
-
-    if (block.nonce < 0x0) {
-      return false;
-    }
-
-    for (const transaction of block.transactions) {
-      if (!block.isGenesis && transaction.source === NULL_PUBLIC_KEY) {
-        return false;
-      }
-
-      if (!this.validateTransaction(transaction)) {
-        return false;
-      }
-    }
+    // TODO
 
     return true;
   }
