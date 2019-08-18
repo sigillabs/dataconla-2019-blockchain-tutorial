@@ -25,7 +25,7 @@ const peer_ops = {
         // interval: 100,
         enabled: true,
         list: [
-          '/ip4/127.0.0.1/tcp/5666/ipfs/QmTw72Gs2MoHMoTr7YHzL5WuFvvHXy1koz2MvZvJ3cvTJh'
+          '/ip4/127.0.0.1/tcp/5666/ipfs/QmRDeimtCkgxPDLUVDpYMiVWr6UCi3CmMix7MB3kw81KGw'
         ]
       }
     }
