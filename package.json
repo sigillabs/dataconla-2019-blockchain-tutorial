@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@nodeutils/defaults-deep": "^1.1.0",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "commander": "^2.20.0",
     "libp2p": "^0.25.5",
     "libp2p-bootstrap": "^0.10.0",
